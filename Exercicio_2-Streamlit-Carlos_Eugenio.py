@@ -70,7 +70,7 @@ with st.sidebar:
         local = st.selectbox('Selecione o Estado',lista_locais)
         status = st.selectbox('Selecione o Status do atendimento', lista_status)
         #ano = st.selectbox('Selecione o Ano das reclamações',lista_ano)
-        seletor=st.selectbox('Selecione a Empresa', ['','Nagem', 'Hap Vida','Ibyte'])       
+        seletor = st.selectbox('Selecione a Empresa', ['','Nagem', 'Hap Vida','Ibyte'])       
  
 
 # hap_local=(df_hap['UF']==local).sum()
