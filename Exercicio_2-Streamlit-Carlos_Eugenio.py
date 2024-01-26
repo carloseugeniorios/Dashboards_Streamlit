@@ -31,12 +31,12 @@
 
 import pandas as pd 
 import numpy as np 
-import plotly as px 
+import plotly.express as px 
 import streamlit as st
 import datetime
 #import seaborn as sns
-import matplotlib as plt
-import matplotlib.pyplot as plt
+#import matplotlib as plt
+#import matplotlib.pyplot as plt
 
 #### CARREGAR OS DADOS ####
 df_hap=pd.read_csv('RECLAMEAQUI_HAPVIDA.csv')
