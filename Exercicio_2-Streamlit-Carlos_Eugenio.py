@@ -39,9 +39,9 @@ import matplotlib as plt
 import matplotlib.pyplot as plt
 
 #### CARREGAR OS DADOS ####
-df_hap=pd.read_csv('c:\Exercicio_2\RECLAMEAQUI_HAPVIDA.csv')
-df_ibyte=pd.read_csv('c:\Exercicio_2\RECLAMEAQUI_IBYTE.csv')
-df_nagem=pd.read_csv('c:\Exercicio_2\RECLAMEAQUI_NAGEM.csv')
+df_hap=pd.read_csv('RECLAMEAQUI_HAPVIDA.csv')
+df_ibyte=pd.read_csv('RECLAMEAQUI_IBYTE.csv')
+df_nagem=pd.read_csv('RECLAMEAQUI_NAGEM.csv')
 
 ## DATETIME ##
 df_hap['TEMPO']=pd.to_datetime(df_hap['TEMPO'])
